@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Live The Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="SongList">
+            <h1>My Music</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Excuses</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="0" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Brown Munde</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="1" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Bijlee Bijlee</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="2" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">G.O.A.T.</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="3" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Shripalli</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="4" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Excuses</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="5" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div><div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Excuses</span>
+                    <span class="MusicList"><span class="timeStamp">5:20<i id="6" class="fas songItemPlay fa-play-circle"></i></span>  </span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="gif1.gif" width="100px" alt="" id="gif"> <span id="masterSongName">Excuses</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e182cf4ce2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
